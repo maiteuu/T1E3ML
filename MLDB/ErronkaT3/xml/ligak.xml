@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liga>
+
+    <!-- EQUIPOS -->
+    <taldeak>
+        <taldea id="t1">
+            <izena>Ibaizabal</izena>
+            <irudia>argazkiak/ibaizabal_taldea.jpg</irudia>
+            <helbidea>Intxaurrrondo kalea 54, 48200 Durango (Bizkaia)</helbidea>
+            <audioa>audioak/Himno del Club Ibaizabal Basket Galdakao.mp3</audioa>
+
+            <jokalariak>
+
+                <jokalaria nan="11111101A">
+                    <izena>Jon</izena>
+                    <abizena>Etxeberria</abizena>
+                    <jaiotza>1992-03-10</jaiotza>
+                    <soldata>52000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111102B">
+                    <izena>Miren</izena>
+                    <abizena>Aguirre</abizena>
+                    <jaiotza>1993-05-12</jaiotza>
+                    <soldata>51000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111103C">
+                    <izena>Aitor</izena>
+                    <abizena>Salazar</abizena>
+                    <jaiotza>1991-08-20</jaiotza>
+                    <soldata>49500</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111104D">
+                    <izena>Amaia</izena>
+                    <abizena>Lekue</abizena>
+                    <jaiotza>1994-01-18</jaiotza>
+                    <soldata>50500</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111105E">
+                    <izena>Beñat</izena>
+                    <abizena>Ruiz</abizena>
+                    <jaiotza>1990-12-03</jaiotza>
+                    <soldata>51500</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111106F">
+                    <izena>Iker</izena>
+                    <abizena>Aranburu</abizena>
+                    <jaiotza>1992-04-22</jaiotza>
+                    <soldata>50000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111107G">
+                    <izena>Ane</izena>
+                    <abizena>Muguruza</abizena>
+                    <jaiotza>1993-09-19</jaiotza>
+                    <soldata>48000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111108H">
+                    <izena>Jon</izena>
+                    <abizena>Odriozola</abizena>
+                    <jaiotza>1991-01-25</jaiotza>
+                    <soldata>47000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+
+                <jokalaria nan="11111109I">
+                    <izena>Uxue</izena>
+                    <abizena>Zabala</abizena>
+                    <jaiotza>1994-02-15</jaiotza>
+                    <soldata>46000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+            </jokalariak>
+        </taldea>
+        <taldea id="t2">
+            <izena>LaSalle</izena>
+            <irudia>argazkiak/Lasalle_taldea.jpg</irudia>
+            <helbidea>Madariaga Hiribidea, 67, Deusto, 48014 Bilbao, Bizkaia</helbidea>
+            <audioa>audioak/Himno del Bilbao Basket.mp3</audioa>
+            <jokalariak>
+                <jokalaria nan="22222201A">
+                    <izena>Unai</izena>
+                    <abizena>Elosegi</abizena>
+                    <jaiotza>1992-04-14</jaiotza>
+                    <soldata>43000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222202B">
+                    <izena>Iñigo</izena>
+                    <abizena>Sola</abizena>
+                    <jaiotza>1991-08-27</jaiotza>
+                    <soldata>44000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222203C">
+                    <izena>Ane</izena>
+                    <abizena>Lazkano</abizena>
+                    <jaiotza>1994-02-06</jaiotza>
+                    <soldata>41000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222204D">
+                    <izena>Jon</izena>
+                    <abizena>Altuna</abizena>
+                    <jaiotza>1990-11-15</jaiotza>
+                    <soldata>45000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222205E">
+                    <izena>Peio</izena>
+                    <abizena>Aranburu</abizena>
+                    <jaiotza>1993-06-01</jaiotza>
+                    <soldata>43500</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222206F">
+                    <izena>Uxue</izena>
+                    <abizena>Muguruza</abizena>
+                    <jaiotza>1995-09-19</jaiotza>
+                    <soldata>42500</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222207G">
+                    <izena>Julen</izena>
+                    <abizena>Odriozola</abizena>
+                    <jaiotza>1991-01-25</jaiotza>
+                    <soldata>44500</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222208H">
+                    <izena>Miren</izena>
+                    <abizena>Iriondo</abizena>
+                    <jaiotza>1993-03-03</jaiotza>
+                    <soldata>42000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="22222209I">
+                    <izena>Aitor</izena>
+                    <abizena>Zia</abizena>
+                    <jaiotza>1990-10-10</jaiotza>
+                    <soldata>46000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+            </jokalariak>
+        </taldea>
+
+        <taldea id="t3">
+            <izena>Salesianos</izena>
+            <irudia>argazkiak/salesianos.jpg</irudia>
+            <helbidea>AVDA.LEHENDAKARI AGUIRRE, 75 - 48014 - Vizcaya</helbidea>
+            <audioa>audioak/Himno de la SD Moraza.mp3</audioa>
+            <jokalariak>
+                <jokalaria nan="33333301A">
+                    <izena>Aritz</izena>
+                    <abizena>Beloki</abizena>
+                    <jaiotza>1990-10-10</jaiotza>
+                    <soldata>56000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333302B">
+                    <izena>Maialen</izena>
+                    <abizena>Etxaniz</abizena>
+                    <jaiotza>1994-05-21</jaiotza>
+                    <soldata>47000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333303C">
+                    <izena>Jon</izena>
+                    <abizena>Lertxundi</abizena>
+                    <jaiotza>1992-02-14</jaiotza>
+                    <soldata>52000</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333304D">
+                    <izena>Unax</izena>
+                    <abizena>Arregi</abizena>
+                    <jaiotza>1993-08-08</jaiotza>
+                    <soldata>53000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333305E">
+                    <izena>Maddi</izena>
+                    <abizena>Zubiri</abizena>
+                    <jaiotza>1995-11-30</jaiotza>
+                    <soldata>46000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333306F">
+                    <izena>Iosu</izena>
+                    <abizena>Urkiza</abizena>
+                    <jaiotza>1991-06-17</jaiotza>
+                    <soldata>54000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333307G">
+                    <izena>Ekhi</izena>
+                    <abizena>Garate</abizena>
+                    <jaiotza>1990-09-02</jaiotza>
+                    <soldata>55000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333308H">
+                    <izena>June</izena>
+                    <abizena>Altube</abizena>
+                    <jaiotza>1995-01-17</jaiotza>
+                    <soldata>45500</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="33333309I">
+                    <izena>Iñigo</izena>
+                    <abizena>Lazcano</abizena>
+                    <jaiotza>1990-09-09</jaiotza>
+                    <soldata>50000</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+            </jokalariak>
+        </taldea>
+
+        <taldea id="t4">
+            <izena>Tabirako</izena>
+            <irudia>argazkiak/tabirako.png</irudia>
+            <helbidea>GP/ MURUETA TORRE AUZUNEA(P.LANDAKO) S/N - 48200 - Vizcaya</helbidea>
+            <audioa>audioak/anthem-of-victory-111206.mp3</audioa>
+            <jokalariak>
+                <jokalaria nan="44444401A">
+                    <izena>Aitor</izena>
+                    <abizena>Santamaria</abizena>
+                    <jaiotza>1991-07-07</jaiotza>
+                    <soldata>44000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444402B">
+                    <izena>Jon</izena>
+                    <abizena>Bengoetxea</abizena>
+                    <jaiotza>1993-03-19</jaiotza>
+                    <soldata>45000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444403C">
+                    <izena>Eneko</izena>
+                    <abizena>Lizarralde</abizena>
+                    <jaiotza>1990-01-28</jaiotza>
+                    <soldata>46000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444404D">
+                    <izena>June</izena>
+                    <abizena>Arbulu</abizena>
+                    <jaiotza>1994-10-12</jaiotza>
+                    <soldata>43000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444405E">
+                    <izena>Iñaki</izena>
+                    <abizena>Osa</abizena>
+                    <jaiotza>1992-12-05</jaiotza>
+                    <soldata>45500</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444406F">
+                    <izena>Uxue</izena>
+                    <abizena>Mikelarena</abizena>
+                    <jaiotza>1995-04-03</jaiotza>
+                    <soldata>42000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444407G">
+                    <izena>Gari</izena>
+                    <abizena>Ugarte</abizena>
+                    <jaiotza>1991-08-16</jaiotza>
+                    <soldata>47000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444408H">
+                    <izena>Nerea</izena>
+                    <abizena>Aldaz</abizena>
+                    <jaiotza>1993-09-29</jaiotza>
+                    <soldata>44000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="44444409I">
+                    <izena>Ane</izena>
+                    <abizena>Zabaleta</abizena>
+                    <jaiotza>1992-11-11</jaiotza>
+                    <soldata>46500</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+            </jokalariak>
+        </taldea>
+
+        <taldea id="t5">
+            <izena>Loiola</izena>
+            <irudia>argazkiak/loiola.jpg</irudia>
+            <helbidea>AL/ DOCTOR AREILZA, 32 - 48010 - Vizcaya</helbidea>
+            <audioa>audioak/audio-club-edyn-343275.mp3</audioa>
+            <jokalariak>
+                <jokalaria nan="55555501A">
+                    <izena>Miren</izena>
+                    <abizena>Egaña</abizena>
+                    <jaiotza>1994-06-06</jaiotza>
+                    <soldata>48000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555502B">
+                    <izena>Jon</izena>
+                    <abizena>Iriondo</abizena>
+                    <jaiotza>1991-11-11</jaiotza>
+                    <soldata>50000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555503C">
+                    <izena>Asier</izena>
+                    <abizena>Azkona</abizena>
+                    <jaiotza>1990-03-23</jaiotza>
+                    <soldata>51000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555504D">
+                    <izena>Ane</izena>
+                    <abizena>Uranga</abizena>
+                    <jaiotza>1995-01-09</jaiotza>
+                    <soldata>47000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555505E">
+                    <izena>Iker</izena>
+                    <abizena>Zubeldia</abizena>
+                    <jaiotza>1992-08-18</jaiotza>
+                    <soldata>49500</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555506F">
+                    <izena>Leire</izena>
+                    <abizena>Odria</abizena>
+                    <jaiotza>1993-12-27</jaiotza>
+                    <soldata>48500</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555507G">
+                    <izena>Beñat</izena>
+                    <abizena>Iglesias</abizena>
+                    <jaiotza>1991-04-04</jaiotza>
+                    <soldata>50500</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555508H">
+                    <izena>Nahia</izena>
+                    <abizena>Lete</abizena>
+                    <jaiotza>1994-09-15</jaiotza>
+                    <soldata>49000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555509I">
+                    <izena>Aitor</izena>
+                    <abizena>Mendizabal</abizena>
+                    <jaiotza>1990-11-30</jaiotza>
+                    <soldata>47500</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+            </jokalariak>
+        </taldea>
+
+        <taldea id="t6">
+            <izena>Unamuno</izena>
+            <irudia>argazkiak/unamuno.png</irudia>
+            <helbidea>CL/ LICENCIADO POZA, 1 - 48008 - Vizcaya</helbidea>
+            <audioa>audioak/scottish-warrior-449828.mp3</audioa>
+            <jokalariak>
+                <jokalaria nan="55555501A">
+                    <izena>Miren</izena>
+                    <abizena>Egaña</abizena>
+                    <jaiotza>1994-06-06</jaiotza>
+                    <soldata>48000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555502B">
+                    <izena>Jon</izena>
+                    <abizena>Iriondo</abizena>
+                    <jaiotza>1991-11-11</jaiotza>
+                    <soldata>50000</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555503C">
+                    <izena>Asier</izena>
+                    <abizena>Azkona</abizena>
+                    <jaiotza>1990-03-23</jaiotza>
+                    <soldata>51000</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555504D">
+                    <izena>Ane</izena>
+                    <abizena>Uranga</abizena>
+                    <jaiotza>1995-01-09</jaiotza>
+                    <soldata>47000</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555505E">
+                    <izena>Iker</izena>
+                    <abizena>Zubeldia</abizena>
+                    <jaiotza>1992-08-18</jaiotza>
+                    <soldata>49500</soldata>
+                    <posizioa>Ala-Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555506F">
+                    <izena>Leire</izena>
+                    <abizena>Odria</abizena>
+                    <jaiotza>1993-12-27</jaiotza>
+                    <soldata>48500</soldata>
+                    <posizioa>Alero</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555507G">
+                    <izena>Beñat</izena>
+                    <abizena>Iglesias</abizena>
+                    <jaiotza>1991-04-04</jaiotza>
+                    <soldata>50500</soldata>
+                    <posizioa>Pivot</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555508H">
+                    <izena>Nahia</izena>
+                    <abizena>Lete</abizena>
+                    <jaiotza>1994-09-15</jaiotza>
+                    <soldata>49000</soldata>
+                    <posizioa>Base</posizioa>
+                </jokalaria>
+                <jokalaria nan="55555509I">
+                    <izena>Aitor</izena>
+                    <abizena>Mendizabal</abizena>
+                    <jaiotza>1990-11-30</jaiotza>
+                    <soldata>47500</soldata>
+                    <posizioa>Escolta</posizioa>
+                </jokalaria>
+            </jokalariak>
+        </taldea>
+    </taldeak>
+
+
+    <!-- CLASIFICACIONES -->
+    <sailkapenak>
+
+        <!-- TEMPORADA 2024-2025 (DATOS ORIGINALES) -->
+        <sailkapena denboraldia="2024-2025">
+            <taldea pos="1" taldea_id="t2">
+                <puntuak>12</puntuak>
+                <jp>6</jp>
+                <irabaziak>6</irabaziak>
+                <galerak>0</galerak>
+                <ap>551</ap>
+                <kp>493</kp>
+            </taldea>
+
+            <taldea pos="2" taldea_id="t6">
+                <puntuak>11</puntuak>
+                <jp>6</jp>
+                <irabaziak>5</irabaziak>
+                <galerak>1</galerak>
+                <ap>480</ap>
+                <kp>470</kp>
+            </taldea>
+
+            <taldea pos="3" taldea_id="t5">
+                <puntuak>10</puntuak>
+                <jp>6</jp>
+                <irabaziak>4</irabaziak>
+                <galerak>2</galerak>
+                <ap>499</ap>
+                <kp>491</kp>
+            </taldea>
+
+            <taldea pos="4" taldea_id="t1">
+                <puntuak>10</puntuak>
+                <jp>6</jp>
+                <irabaziak>4</irabaziak>
+                <galerak>2</galerak>
+                <ap>474</ap>
+                <kp>475</kp>
+            </taldea>
+
+            <taldea pos="5" taldea_id="t4">
+                <puntuak>10</puntuak>
+                <jp>7</jp>
+                <irabaziak>3</irabaziak>
+                <galerak>4</galerak>
+                <ap>540</ap>
+                <kp>545</kp>
+            </taldea>
+
+            <taldea pos="6" taldea_id="t3">
+                <puntuak>7</puntuak>
+                <jp>7</jp>
+                <irabaziak>0</irabaziak>
+                <galerak>7</galerak>
+                <ap>552</ap>
+                <kp>594</kp>
+            </taldea>
+        </sailkapena>
+
+
+        <!-- TEMPORADA 2023-2024 (DATOS INVENTADOS) -->
+        <sailkapena denboraldia="2023-2024">
+            <taldea pos="1" taldea_id="t6">
+                <puntuak>22</puntuak>
+                <jp>12</jp>
+                <irabaziak>10</irabaziak>
+                <galerak>2</galerak>
+                <ap>960</ap>
+                <kp>880</kp>
+            </taldea>
+
+            <taldea pos="2" taldea_id="t2">
+                <puntuak>20</puntuak>
+                <jp>12</jp>
+                <irabaziak>9</irabaziak>
+                <galerak>3</galerak>
+                <ap>930</ap>
+                <kp>890</kp>
+            </taldea>
+
+            <taldea pos="3" taldea_id="t1">
+                <puntuak>18</puntuak>
+                <jp>12</jp>
+                <irabaziak>8</irabaziak>
+                <galerak>4</galerak>
+                <ap>910</ap>
+                <kp>905</kp>
+            </taldea>
+
+            <taldea pos="4" taldea_id="t5">
+                <puntuak>16</puntuak>
+                <jp>12</jp>
+                <irabaziak>7</irabaziak>
+                <galerak>5</galerak>
+                <ap>890</ap>
+                <kp>900</kp>
+            </taldea>
+
+            <taldea pos="5" taldea_id="t4">
+                <puntuak>14</puntuak>
+                <jp>12</jp>
+                <irabaziak>6</irabaziak>
+                <galerak>6</galerak>
+                <ap>870</ap>
+                <kp>880</kp>
+            </taldea>
+
+            <taldea pos="6" taldea_id="t3">
+                <puntuak>10</puntuak>
+                <jp>12</jp>
+                <irabaziak>4</irabaziak>
+                <galerak>8</galerak>
+                <ap>820</ap>
+                <kp>910</kp>
+            </taldea>
+        </sailkapena>
+
+    </sailkapenak>
+
+
+    <!-- JORNADAS -->
+    <jaurdunaldiak>
+
+        <jaurdunaldia izena="Seigarren Jaurdunaldia">
+            <partidua ordua="17:00" etxekoa="t4" kanpokoa="t1">
+                <emaitza>68-72</emaitza>
+            </partidua>
+
+            <partidua ordua="19:00" etxekoa="t2" kanpokoa="t3">
+                <emaitza>99-85</emaitza>
+            </partidua>
+
+            <partidua ordua="21:00" etxekoa="t6" kanpokoa="t5">
+                <emaitza>80-81</emaitza>
+            </partidua>
+        </jaurdunaldia>
+
+    </jaurdunaldiak>
+
+</liga>
