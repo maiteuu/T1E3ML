@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <liga>
+    <erabiltzaileak>
+        <pertsona>
+            <erabiltzailea>ebilbao</erabiltzailea>
+            <pasahitza>12345</pasahitza>
+        </pertsona>
+
+        <pertsona>
+            <erabiltzailea>kmunoz</erabiltzailea>
+            <pasahitza>12345</pasahitza>
+        </pertsona>
+
+        <pertsona>
+            <erabiltzailea>aelexpe</erabiltzailea>
+            <pasahitza>12345</pasahitza>
+        </pertsona>
+
+        <pertsona>
+            <erabiltzailea>abarcena</erabiltzailea>
+            <pasahitza>12345</pasahitza>
+        </pertsona>
+
+        <pertsona>
+            <erabiltzailea>admin</erabiltzailea>
+            <pasahitza>12345</pasahitza>
+        </pertsona>
+
+        <pertsona>
+            <erabiltzailea>npc</erabiltzailea>
+            <pasahitza>12345</pasahitza>
+        </pertsona>
+    </erabiltzaileak>
 
     <!-- EQUIPOS -->
     <taldeak>
@@ -10,8 +41,8 @@
             <audioa>audioak/Himno del Club Ibaizabal Basket Galdakao.mp3</audioa>
 
             <jokalariak>
-
                 <jokalaria nan="11111101A">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Etxeberria</abizena>
                     <jaiotza>1992-03-10</jaiotza>
@@ -20,6 +51,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111102B">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Miren</izena>
                     <abizena>Aguirre</abizena>
                     <jaiotza>1993-05-12</jaiotza>
@@ -28,6 +60,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111103C">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Aitor</izena>
                     <abizena>Salazar</abizena>
                     <jaiotza>1991-08-20</jaiotza>
@@ -36,6 +69,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111104D">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Amaia</izena>
                     <abizena>Lekue</abizena>
                     <jaiotza>1994-01-18</jaiotza>
@@ -44,6 +78,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111105E">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Beñat</izena>
                     <abizena>Ruiz</abizena>
                     <jaiotza>1990-12-03</jaiotza>
@@ -52,6 +87,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111106F">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iker</izena>
                     <abizena>Aranburu</abizena>
                     <jaiotza>1992-04-22</jaiotza>
@@ -60,6 +96,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111107G">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Ane</izena>
                     <abizena>Muguruza</abizena>
                     <jaiotza>1993-09-19</jaiotza>
@@ -68,6 +105,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111108H">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Odriozola</abizena>
                     <jaiotza>1991-01-25</jaiotza>
@@ -76,6 +114,7 @@
                 </jokalaria>
 
                 <jokalaria nan="11111109I">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Uxue</izena>
                     <abizena>Zabala</abizena>
                     <jaiotza>1994-02-15</jaiotza>
@@ -84,6 +123,7 @@
                 </jokalaria>
             </jokalariak>
         </taldea>
+
         <taldea id="t2">
             <izena>LaSalle</izena>
             <irudia>argazkiak/Lasalle_taldea.jpg</irudia>
@@ -91,6 +131,7 @@
             <audioa>audioak/Himno del Bilbao Basket.mp3</audioa>
             <jokalariak>
                 <jokalaria nan="22222201A">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Unai</izena>
                     <abizena>Elosegi</abizena>
                     <jaiotza>1992-04-14</jaiotza>
@@ -98,6 +139,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222202B">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iñigo</izena>
                     <abizena>Sola</abizena>
                     <jaiotza>1991-08-27</jaiotza>
@@ -105,6 +147,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222203C">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Ane</izena>
                     <abizena>Lazkano</abizena>
                     <jaiotza>1994-02-06</jaiotza>
@@ -112,6 +155,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222204D">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Altuna</abizena>
                     <jaiotza>1990-11-15</jaiotza>
@@ -119,6 +163,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222205E">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Peio</izena>
                     <abizena>Aranburu</abizena>
                     <jaiotza>1993-06-01</jaiotza>
@@ -126,6 +171,7 @@
                     <posizioa>Ala-Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222206F">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Uxue</izena>
                     <abizena>Muguruza</abizena>
                     <jaiotza>1995-09-19</jaiotza>
@@ -133,6 +179,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222207G">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Julen</izena>
                     <abizena>Odriozola</abizena>
                     <jaiotza>1991-01-25</jaiotza>
@@ -140,6 +187,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222208H">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Miren</izena>
                     <abizena>Iriondo</abizena>
                     <jaiotza>1993-03-03</jaiotza>
@@ -147,6 +195,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="22222209I">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Aitor</izena>
                     <abizena>Zia</abizena>
                     <jaiotza>1990-10-10</jaiotza>
@@ -163,6 +212,7 @@
             <audioa>audioak/Himno de la SD Moraza.mp3</audioa>
             <jokalariak>
                 <jokalaria nan="33333301A">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Aritz</izena>
                     <abizena>Beloki</abizena>
                     <jaiotza>1990-10-10</jaiotza>
@@ -170,6 +220,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333302B">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Maialen</izena>
                     <abizena>Etxaniz</abizena>
                     <jaiotza>1994-05-21</jaiotza>
@@ -177,6 +228,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333303C">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Lertxundi</abizena>
                     <jaiotza>1992-02-14</jaiotza>
@@ -184,6 +236,7 @@
                     <posizioa>Ala-Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333304D">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Unax</izena>
                     <abizena>Arregi</abizena>
                     <jaiotza>1993-08-08</jaiotza>
@@ -191,6 +244,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333305E">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Maddi</izena>
                     <abizena>Zubiri</abizena>
                     <jaiotza>1995-11-30</jaiotza>
@@ -198,6 +252,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333306F">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iosu</izena>
                     <abizena>Urkiza</abizena>
                     <jaiotza>1991-06-17</jaiotza>
@@ -205,6 +260,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333307G">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Ekhi</izena>
                     <abizena>Garate</abizena>
                     <jaiotza>1990-09-02</jaiotza>
@@ -212,6 +268,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333308H">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>June</izena>
                     <abizena>Altube</abizena>
                     <jaiotza>1995-01-17</jaiotza>
@@ -219,6 +276,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="33333309I">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iñigo</izena>
                     <abizena>Lazcano</abizena>
                     <jaiotza>1990-09-09</jaiotza>
@@ -235,6 +293,7 @@
             <audioa>audioak/anthem-of-victory-111206.mp3</audioa>
             <jokalariak>
                 <jokalaria nan="44444401A">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Aitor</izena>
                     <abizena>Santamaria</abizena>
                     <jaiotza>1991-07-07</jaiotza>
@@ -242,6 +301,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444402B">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Bengoetxea</abizena>
                     <jaiotza>1993-03-19</jaiotza>
@@ -249,6 +309,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444403C">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Eneko</izena>
                     <abizena>Lizarralde</abizena>
                     <jaiotza>1990-01-28</jaiotza>
@@ -256,6 +317,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444404D">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>June</izena>
                     <abizena>Arbulu</abizena>
                     <jaiotza>1994-10-12</jaiotza>
@@ -263,6 +325,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444405E">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iñaki</izena>
                     <abizena>Osa</abizena>
                     <jaiotza>1992-12-05</jaiotza>
@@ -270,6 +333,7 @@
                     <posizioa>Ala-Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444406F">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Uxue</izena>
                     <abizena>Mikelarena</abizena>
                     <jaiotza>1995-04-03</jaiotza>
@@ -277,6 +341,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444407G">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Gari</izena>
                     <abizena>Ugarte</abizena>
                     <jaiotza>1991-08-16</jaiotza>
@@ -284,6 +349,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444408H">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Nerea</izena>
                     <abizena>Aldaz</abizena>
                     <jaiotza>1993-09-29</jaiotza>
@@ -291,6 +357,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="44444409I">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Ane</izena>
                     <abizena>Zabaleta</abizena>
                     <jaiotza>1992-11-11</jaiotza>
@@ -307,6 +374,7 @@
             <audioa>audioak/audio-club-edyn-343275.mp3</audioa>
             <jokalariak>
                 <jokalaria nan="55555501A">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Miren</izena>
                     <abizena>Egaña</abizena>
                     <jaiotza>1994-06-06</jaiotza>
@@ -314,6 +382,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555502B">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Iriondo</abizena>
                     <jaiotza>1991-11-11</jaiotza>
@@ -321,6 +390,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555503C">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Asier</izena>
                     <abizena>Azkona</abizena>
                     <jaiotza>1990-03-23</jaiotza>
@@ -328,6 +398,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555504D">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Ane</izena>
                     <abizena>Uranga</abizena>
                     <jaiotza>1995-01-09</jaiotza>
@@ -335,6 +406,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555505E">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iker</izena>
                     <abizena>Zubeldia</abizena>
                     <jaiotza>1992-08-18</jaiotza>
@@ -342,6 +414,7 @@
                     <posizioa>Ala-Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555506F">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Leire</izena>
                     <abizena>Odria</abizena>
                     <jaiotza>1993-12-27</jaiotza>
@@ -349,6 +422,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555507G">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Beñat</izena>
                     <abizena>Iglesias</abizena>
                     <jaiotza>1991-04-04</jaiotza>
@@ -356,6 +430,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555508H">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Nahia</izena>
                     <abizena>Lete</abizena>
                     <jaiotza>1994-09-15</jaiotza>
@@ -363,6 +438,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555509I">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Aitor</izena>
                     <abizena>Mendizabal</abizena>
                     <jaiotza>1990-11-30</jaiotza>
@@ -379,6 +455,7 @@
             <audioa>audioak/scottish-warrior-449828.mp3</audioa>
             <jokalariak>
                 <jokalaria nan="55555501A">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Miren</izena>
                     <abizena>Egaña</abizena>
                     <jaiotza>1994-06-06</jaiotza>
@@ -386,6 +463,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555502B">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Jon</izena>
                     <abizena>Iriondo</abizena>
                     <jaiotza>1991-11-11</jaiotza>
@@ -393,6 +471,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555503C">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Asier</izena>
                     <abizena>Azkona</abizena>
                     <jaiotza>1990-03-23</jaiotza>
@@ -400,6 +479,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555504D">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Ane</izena>
                     <abizena>Uranga</abizena>
                     <jaiotza>1995-01-09</jaiotza>
@@ -407,6 +487,7 @@
                     <posizioa>Escolta</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555505E">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Iker</izena>
                     <abizena>Zubeldia</abizena>
                     <jaiotza>1992-08-18</jaiotza>
@@ -414,6 +495,7 @@
                     <posizioa>Ala-Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555506F">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Leire</izena>
                     <abizena>Odria</abizena>
                     <jaiotza>1993-12-27</jaiotza>
@@ -421,6 +503,7 @@
                     <posizioa>Alero</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555507G">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Beñat</izena>
                     <abizena>Iglesias</abizena>
                     <jaiotza>1991-04-04</jaiotza>
@@ -428,6 +511,7 @@
                     <posizioa>Pivot</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555508H">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Nahia</izena>
                     <abizena>Lete</abizena>
                     <jaiotza>1994-09-15</jaiotza>
@@ -435,6 +519,7 @@
                     <posizioa>Base</posizioa>
                 </jokalaria>
                 <jokalaria nan="55555509I">
+                    <argazkia>argazkiak/jokalaria.jpg</argazkia>
                     <izena>Aitor</izena>
                     <abizena>Mendizabal</abizena>
                     <jaiotza>1990-11-30</jaiotza>
@@ -448,7 +533,6 @@
 
     <!-- CLASIFICACIONES -->
     <sailkapenak>
-
         <!-- TEMPORADA 2024-2025 (DATOS ORIGINALES) -->
         <sailkapena denboraldia="2024-2025">
             <taldea pos="1" taldea_id="t2">
@@ -563,13 +647,11 @@
                 <kp>910</kp>
             </taldea>
         </sailkapena>
-
     </sailkapenak>
 
 
     <!-- JORNADAS -->
     <jaurdunaldiak>
-
         <jaurdunaldia izena="Seigarren Jaurdunaldia">
             <partidua ordua="17:00" etxekoa="t4" kanpokoa="t1">
                 <emaitza>68-72</emaitza>
@@ -583,7 +665,6 @@
                 <emaitza>80-81</emaitza>
             </partidua>
         </jaurdunaldia>
-
     </jaurdunaldiak>
 
 </liga>

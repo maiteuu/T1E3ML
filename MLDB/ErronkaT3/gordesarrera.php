@@ -1,6 +1,71 @@
 <?php
 session_start();
 
+if (isset($_SESSION["generoa"])){
+    $generoa=$_SESSION["generoa"];
+}else{
+   $generoa="2024-2025";
+}
+
+
+// XML kargatu DOM erabilita    
+        $xml = new DOMDocument();
+        $xml->load("xml/sarrerak.xml");
+
+        #XPath erabiltzcko aldagai berri bat sortuko dugu
+        $xpath = new DOMXPath($xml);
+        #php: namespace erregistratu behar dugu
+        $xpath->registerNamespace("php", "http://php.net/xpath");
+        #PHP funtzioak ere erregistratu behar ditugu (no restrictions)
+        $xpath->registerPHPFunctions();
+
+        //Sortu aldagaia bilatu behar den izenarekin
+        $user = $_GET["izena"];
+        $email = $_GET["email"];
+        #XPath kontsulta
+        $consulta = "//harpidetza[izena='$user' and email='$email']";
+    
+        #Xpath kontsulta betetzen duten nodoak bilatzen ditut
+        $erabiltzaileak = $xpath->query($consulta);
+        #Zenbat nodo bueltatu duen kontsultak aztertzen dugu
+        $numNodos = $erabiltzaileak->length;
+
+        if ($numNodos > 0) {
+            # Si encuentro datos
+            echo "User honek:" .$user." eta email honek: ".$email." existitzen dira";
+
+        } else {
+            # Si no encuentro datos
+           $fitxategia = "xml/sarrerak.xml";
+if (!file_exists($fitxategia)){
+     file_put_contents($fitxategia, "<?xml version='1.0' encoding='UTF-8'?>
+<sarrerak></sarrerak>");
+}
+$fitxategia=file_get_contents("xml/sarrerak.xml");
+$fitxategia=str_replace("</sarrerak>"," ",$fitxategia);
+//Alda
+$izena= $_GET["izena"];
+$telefonoa= $_GET["telefonoa"];
+$email= $_GET["email"];
+$mezua= $_GET["partidua"];
+
+//Sortu
+$fitxategia .=" <sarrera> ";
+$fitxategia .=" <izena>$izena</izena> ";
+$fitxategia .=" <telefonoa>$telefonoa</telefonoa> ";
+$fitxategia .=" <email>$email</email> ";
+$fitxategia .=" <partidua>$mezua</partidua> ";
+$fitxategia .=" </sarrera> ";
+$fitxategia .=" </sarrerak> ";
+
+
+
+$bytes=file_put_contents("xml/sarrerak.xml", $fitxategia);
+
+        }
+?>
+<?php
+
 if (isset($_SESSION["generoa"])) {
     $generoa = $_SESSION["generoa"];
 } else {
@@ -19,7 +84,7 @@ if (isset($_SESSION["nombreUsuario"])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gure Kontaktua</title>
+    <title>Sarrera Erosi</title>
     <link rel="stylesheet" href="estiloak/w3.css">
     <link rel="stylesheet" href="estiloak/estiloa.css" />
     <link rel="icon" type="icon" href="argazkiak/Federación Vizcaína de Baloncesto.png" />
@@ -53,33 +118,29 @@ if (isset($_SESSION['nombreUsuario'])) {
             <a class="login-botoia" href="logout.php">Saioa Itxi</a>
             <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
         </header>
-        <h1 class="orri-izenburua"> Gure Kontaktua </h1>
+        <h1 class="orri-izenburua"> Erosi Zure Sarrera </h1>
         <br>
-        <div class="kontaktua-container">
-            <div class="mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5812.329463486489!2d-2.9361776011352347!3d43.24796923583529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4e31e3bd70e3%3A0x46ac2daa7c07ffec!2sMart%C3%ADn%20Bar%C3%BAa%20Picaza%20Kalea%2C%2027%2C%20Ibaiondo%2C%2048010%20Bilbao%2C%20Bizkaia!5e0!3m2!1seu!2ses!4v1768301925805!5m2!1seu!2ses"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="kexen-kutxa">
-                <h2>Kexak</h2>
-                <form action="gordekexak.php" method="get" class="kexas">
-                    <label for="">Izena</label><br><br>
-                    <input type="text" name="izena" required placeholder="Sartu Izena">
-                    <br><br>
-                    <label for="">Telefonoa</label><br><br>
-                    <input type="text" name="telefonoa" required placeholder="868588879" pattern="[0-9]{9}">
-                    <br><br>
-                    <label for="">Helbide Elektronikoa</label><br><br>
-                    <input type="email" name="email" required placeholder="adibide@gmail.com">
-                    <br><br>
-                    <label for="">Kexa</label><br><br>
-                    <input type="text" name="mezua" required placeholder="Idatzi hemen zure kexa..." class="kexak">
-                    <br><br>
-                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali Kexa</button>
-                </form>
-            </div>
+        <div class="kexen-kutxa">
+            <h2>Sarrerak</h2>
+            <form action="gordesarrera.php" method="get" class="kexas">
+                <label for="">Izena</label><br><br>
+                <input type="text" name="izena" required placeholder="Sartu Izena">
+                <br><br>
+                <label for="">Telefonoa</label><br><br>
+                <input type="text" name="telefonoa" required placeholder="868588879" pattern="[0-9]{9}">
+                <br><br>
+                <label for="">Helbide Elektronikoa</label><br><br>
+                <input type="email" name="email" required placeholder="adibide@gmail.com">
+                <br><br>
+                <label for="">Zein partidu ikusi nahi duzu?</label><br><br>
+                <select name="partidua" id="">
+                    <option value="LaSalle vs Unamuno">LaSalle vs Unamuno</option>
+                    <option value="Tabirako vs Loiola">Tabirako vs Loiola</option>
+                    <option value="Salesianos vs Ibaizabal">Salesianos vs Ibaizabal</option>
+                </select>
+                <br><br>
+                <button type="submit" value="Harpidetza" class="Aurkitu"> Erosi Sarrera </button>
+            </form>
         </div>
         <footer>
             <p>C/ Martin Barua Picaza 27- 2º 48003 Bilbao, Bizkaia</p>
@@ -145,7 +206,7 @@ if (isset($_SESSION['nombreUsuario'])) {
                     <label for="">Kexa</label><br><br>
                     <input type="text" name="mezua" required placeholder="Idatzi hemen zure kexa..." class="kexak">
                     <br><br>
-                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali Kexa</button>
+                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali </button>
                 </form>
             </div>
         </div>

@@ -1,6 +1,73 @@
 <?php
 session_start();
 
+if (isset($_SESSION["generoa"])){
+    $generoa=$_SESSION["generoa"];
+}else{
+   $generoa="2024-2025";
+}
+
+
+// XML kargatu DOM erabilita    
+        $xml = new DOMDocument();
+        $xml->load("xml/kexak.xml");
+
+        #XPath erabiltzcko aldagai berri bat sortuko dugu
+        $xpath = new DOMXPath($xml);
+        #php: namespace erregistratu behar dugu
+        $xpath->registerNamespace("php", "http://php.net/xpath");
+        #PHP funtzioak ere erregistratu behar ditugu (no restrictions)
+        $xpath->registerPHPFunctions();
+
+        //Sortu aldagaia bilatu behar den izenarekin
+        $user = $_GET["izena"];
+        $email = $_GET["email"];
+        #XPath kontsulta
+        $consulta = "//harpidetza[izena='$user' and email='$email']";
+    
+        #Xpath kontsulta betetzen duten nodoak bilatzen ditut
+        $erabiltzaileak = $xpath->query($consulta);
+        #Zenbat nodo bueltatu duen kontsultak aztertzen dugu
+        $numNodos = $erabiltzaileak->length;
+
+        if ($numNodos > 0) {
+            # Si encuentro datos
+            echo "User honek:" .$user." eta email honek: ".$email." existitzen dira";
+
+        } else {
+            # Si no encuentro datos
+           $fitxategia = "xml/kexak.xml";
+if (!file_exists($fitxategia)){
+     file_put_contents($fitxategia, "<?xml version='1.0' encoding='UTF-8'?>
+<kexak></kexak>");
+}
+$fitxategia=file_get_contents("xml/kexak.xml");
+$fitxategia=str_replace("</kexak>"," ",$fitxategia);
+//Alda
+$izena= $_GET["izena"];
+$telefonoa= $_GET["telefonoa"];
+$email= $_GET["email"];
+$mezua= $_GET["mezua"];
+
+//Sortu
+$fitxategia .=" <kexa> ";
+$fitxategia .=" <izena>$izena</izena> ";
+$fitxategia .=" <telefonoa>$telefonoa</telefonoa> ";
+$fitxategia .=" <email>$email</email> ";
+$fitxategia .=" <mezua>$mezua</mezua> ";
+$fitxategia .=" </kexa> ";
+$fitxategia .=" </kexak> ";
+
+
+
+$bytes=file_put_contents("xml/kexak.xml", $fitxategia);
+
+        }
+?>
+
+<?php
+
+
 if (isset($_SESSION["generoa"])) {
     $generoa = $_SESSION["generoa"];
 } else {
@@ -64,7 +131,7 @@ if (isset($_SESSION['nombreUsuario'])) {
             </div>
             <div class="kexen-kutxa">
                 <h2>Kexak</h2>
-                <form action="gordekexak.php" method="get" class="kexas">
+                <form action="gorde.php" method="get" class="kexas">
                     <label for="">Izena</label><br><br>
                     <input type="text" name="izena" required placeholder="Sartu Izena">
                     <br><br>
@@ -77,7 +144,7 @@ if (isset($_SESSION['nombreUsuario'])) {
                     <label for="">Kexa</label><br><br>
                     <input type="text" name="mezua" required placeholder="Idatzi hemen zure kexa..." class="kexak">
                     <br><br>
-                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali Kexa</button>
+                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali </button>
                 </form>
             </div>
         </div>
@@ -145,7 +212,7 @@ if (isset($_SESSION['nombreUsuario'])) {
                     <label for="">Kexa</label><br><br>
                     <input type="text" name="mezua" required placeholder="Idatzi hemen zure kexa..." class="kexak">
                     <br><br>
-                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali Kexa</button>
+                    <button type="submit" value="Harpidetza" class="Aurkitu">Bidali </button>
                 </form>
             </div>
         </div>
