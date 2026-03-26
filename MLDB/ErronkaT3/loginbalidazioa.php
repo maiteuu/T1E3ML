@@ -14,6 +14,8 @@ $xpath->registerPHPFunctions();
 //Sortu aldagaia bilatu behar den izenarekin
 $user = $_POST["erabiltzailea"];
 $pass = $_POST["pasahitza"];
+$rol;
+$ikonoa;
 #XPath kontsulta
 $consulta = "//erabiltzaileak/pertsona[erabiltzailea='$user' and pasahitza='$pass']";
 
@@ -23,11 +25,24 @@ $erabiltzaileak = $xpath->query($consulta);
 $numNodos = $erabiltzaileak->length;
 
 if ($numNodos > 0) {
-    # Si encuentro datos con ese nombre
     $_SESSION["nombreUsuario"] = $user;
-    header(header: "Location:index.php");
-} else {
-    # Si no encuentro datos con ese nombre
-    header(header: "Location:Login.php");
+    // Obtenemos el rol del XML
+    $rol = $erabiltzaileak->item(0)->getElementsByTagName("rol")->item(0)->nodeValue;
+    $_SESSION["rol"] = $rol;
+    // Convertimos a minúsculas para comparar sin errores
+    $rolCheck = strtolower($rol);
+    if ($rolCheck == "entrenatzailea") {
+        $_SESSION["ikonoa"] = "argazkiak/pelota.jpg";
+    } elseif ($rolCheck == "bazkidea") {
+        $_SESSION["ikonoa"] = "argazkiak/bazkidea.jpg";
+    } elseif ($rolCheck == "admin") {
+        $_SESSION["ikonoa"] = "argazkiak/admin.jpg";
+    } else {
+        // Si no es ninguno de los anteriores, ponemos una por defecto
+        $_SESSION["ikonoa"] = "argazkiak/pelota.jpg";
+    }
+
+    header("Location: index.php");
+    exit();
 }
 ?>

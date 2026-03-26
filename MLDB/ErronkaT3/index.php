@@ -8,6 +8,8 @@ if (isset($_SESSION["generoa"])) {
 }
 if (isset($_SESSION["nombreUsuario"])) {
     $u = $_SESSION["nombreUsuario"];
+    $rol = $_SESSION["rol"];
+    $ikonoa = $_SESSION["ikonoa"];
 } else {
 
 }
@@ -48,14 +50,20 @@ if (isset($_SESSION['nombreUsuario'])) {
                         ?>
                         <li><a id="sarreraerosi" href="sarreraerosi.php">Sarrerak Erosi</a></li>
                     <?php } ?>
+                    <?php
+                    if ($u == "abarcena") {
+                        ?>
+                        <li><a id="entrenatzailea" href="entrenatzailea.php">Gure Estrategiak</a></li>
+                    <?php } ?>
                 </ul>
             </nav>
+            <h1 class="u-agurra"><img class="ikonoa-erabiltzailea" src="<?php echo $ikonoa; ?>" alt="icono"> Kaixo
+                <?php echo $u ?> (<?php echo $rol ?>)!!</h1>
             <a class="login-botoia" href="logout.php">Saioa Itxi</a>
             <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
         </header>
         <main>
             <section>
-                <h1 class="deitu-erabiltzaileri"> Kaixo <?php echo $u ?>!!</h1>
                 <h2 class="berriak"> Berriak </h2>
                 <div class="karrusel">
                     <a href="https://bizkaiabasket.com/es/resultados-del-pin-actualizados-despues-de-todos-los-encuentros-de-2025/"

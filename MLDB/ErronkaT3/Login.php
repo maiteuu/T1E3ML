@@ -25,7 +25,7 @@ if (isset($_SESSION["generoa"])) {
 <body class="body-index">
     <header>
         <a href="index.php"><img class="logoa" src="argazkiak/Federación Vizcaína de Baloncesto.png" alt="Logo" /></a>
-       <nav>
+        <nav>
             <ul class="menua">
                 <li><a id="hasiera" href="index.php">Hasiera</a></li>
                 <li><a id="sailkapena" href="Klasifikazioa.php">Sailkapena</a></li>

@@ -21,7 +21,7 @@ if (isset($_SESSION["nombreUsuario"])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sarrera Erosi</title>
+    <title>Gure Estrategiak</title>
     <link rel="stylesheet" href="estiloak/w3.css">
     <link rel="stylesheet" href="estiloak/estiloa.css" />
     <link rel="icon" type="icon" href="argazkiak/Federación Vizcaína de Baloncesto.png" />
@@ -62,29 +62,42 @@ if (isset($_SESSION['nombreUsuario'])) {
             <a class="login-botoia" href="logout.php">Saioa Itxi</a>
             <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
         </header>
-        <h2 class="orri-izenburua"> Erosi Zure Sarrera </h2>
-        <div class="kexen-kutxa">
-            <h2>Sarrerak</h2>
-            <form action="gordesarrera.php" method="get" class="kexas">
-                <label for="">Izena</label><br><br>
-                <input type="text" name="izena" required placeholder="Sartu Izena">
+        <h1 class="orri-izenburua"> <img class="Entr-Irdui" src="argazkiak/salesianos.jpg"> Salesianos <img
+                class="Entr-Irdui" src="argazkiak/salesianos.jpg"></h1>
+        <h2>Lerrokadura</h2>
+        <div class="container">
+            <div class="ezkerreko-zutabea">
+                <img src="argazkiak/Cancha.png" alt="Sazkibaloiko Zelaia" class="zelaia">
+                <div class="jokalariak" style="top: 440px; left: 400px;">Aritz Beloki</div>
+                <div class="jokalariak" style="top: 350px; left: 210px;">Maialen Etxaniz</div>
+                <div class="jokalariak" style="top: 320px; left: 500px;">Jon Lertxundi</div>
+                <div class="jokalariak" style="top: 120px; left: 280px;">Unax Arregi</div>
+                <div class="jokalariak" style="top: 250px; left: 570px;">Maddi Zubiri</div>
+                <div class="jokalariak" style="top: 480px; left: 0px;">Iosu Urkiza</div>
+                <div class="jokalariak" style="top: 510px; left: 0px;">Ekhi Garate</div>
+                <div class="jokalariak" style="top: 540px; left: 0px;">June Altube</div>
+                <div class="jokalariak" style="top: 570px; left: 0px;">Iñigo Lazcano</div>
+                <div class="entrenatzailea" style="top: 450px; left: 0px;">Aratz Barcena</div>
+            </div>
+            <div class="ezkuineko-zutabea">
+                <h2>Taldearen Estrategiak</h2>
+                <div class="estrategia">
+                    <h3>Erasoa</h3>
+                    <p>Landu pase azkarretan eta saskirako jaurtiketetan, bilatu jaurtiketa irekiak.</p>
+                </div>
+                <div class="estrategia">
+                    <h3>Defentsa</h3>
+                    <p>Zonako eta gizon-gizonezko defentsa bizia, espazioak itxiz eta erreboteak lortuz.</p>
+                </div>
+                <div class="estrategia">
+                    <h3>Kontraerasoa</h3>
+                    <p>Defentsako errebote bakoitzaren ondoren azkar irten eta trantsizio azkar bat bilatu.</p>
+                </div>
                 <br><br>
-                <label for="">Telefonoa</label><br><br>
-                <input type="text" name="telefonoa" required placeholder="868588879" pattern="[0-9]{9}">
-                <br><br>
-                <label for="">Helbide Elektronikoa</label><br><br>
-                <input type="email" name="email" required placeholder="adibide@gmail.com">
-                <br><br>
-                <label for="">Zein partidu ikusi nahi duzu?</label><br><br>
-                <select name="partidua" id="">
-                    <option value="LaSalle vs Unamuno">LaSalle vs Unamuno</option>
-                    <option value="Tabirako vs Loiola">Tabirako vs Loiola</option>
-                    <option value="Salesianos vs Ibaizabal">Salesianos vs Ibaizabal</option>
-                </select>
-                <br><br>
-                <button type="submit" value="Harpidetza" class="Aurkitu"> Erosi Sarrera </button>
-            </form>
+                <img class="salesianos-taldea" alt="Salesianos-en Taldea" src="argazkiak/salesianos-taldea.jpg">
+            </div>
         </div>
+
         <footer>
             <p>C/ Martin Barua Picaza 27- 2º 48003 Bilbao, Bizkaia</p>
             <p>944 439 57 22</p>

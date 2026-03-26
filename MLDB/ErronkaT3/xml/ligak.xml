@@ -9,6 +9,8 @@
         <pertsona>
             <erabiltzailea>kmunoz</erabiltzailea>
             <pasahitza>12345</pasahitza>
+            <rol>Bazkidea</rol>
+            <ikonoa>bazkidea.jpg</ikonoa>
         </pertsona>
 
         <pertsona>
@@ -19,11 +21,15 @@
         <pertsona>
             <erabiltzailea>abarcena</erabiltzailea>
             <pasahitza>12345</pasahitza>
+            <rol>Entrenatzailea</rol>
+            <ikonoa>pelota.jpg</ikonoa>
         </pertsona>
 
         <pertsona>
             <erabiltzailea>admin</erabiltzailea>
             <pasahitza>12345</pasahitza>
+            <rol>Admin</rol>
+            <ikonoa>admin.jpg</ikonoa>
         </pertsona>
 
         <pertsona>
