@@ -31,6 +31,7 @@ if ($numNodos > 0) {
     $_SESSION["rol"] = $rol;
     // Convertimos a minúsculas para comparar sin errores
     $rolCheck = strtolower($rol);
+    header("Location: index.php");
     if ($rolCheck == "entrenatzailea") {
         $_SESSION["ikonoa"] = "argazkiak/pelota.jpg";
     } elseif ($rolCheck == "bazkidea") {
@@ -42,7 +43,8 @@ if ($numNodos > 0) {
         $_SESSION["ikonoa"] = "argazkiak/pelota.jpg";
     }
 
-    header("Location: index.php");
+}else{
+        header("Location: Login.php");
     exit();
-}
+    }
 ?>

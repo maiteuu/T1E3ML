@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if (isset($_SESSION["generoa"])) {
-    $generoa = $_SESSION["generoa"];
+if (isset($_SESSION["denboraldia"])) {
+    $denboraldia = $_SESSION["denboraldia"];
 } else {
-    $generoa = "2024-2025";
+    $denboraldia = "2024-2025";
 }
 ?>
 
@@ -33,7 +33,7 @@ if (isset($_SESSION["generoa"])) {
             </ul>
         </nav>
         <a href="Login.php" class="login-botoia">Login</a>
-        <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
+        <h3 class="denboraldia"><?php echo "Denboraldia: " . $denboraldia ?></h3>
     </header>
     <main>
         <section class="Loginform">

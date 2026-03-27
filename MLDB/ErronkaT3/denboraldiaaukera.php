@@ -1,11 +1,10 @@
 <?php
 session_start();
-$_SESSION["generoa"]=$_POST["generoak"];
+$_SESSION["denboraldia"]=$_POST["denboraldia"];
 
 if (isset($_SESSION["nombreUsuario"])) {
     header("Location:Klasifikazioa.php");
 } else {
-    header("Location:index.php");
     header("Location:Klasifikazioa.php");
 }
 ?>

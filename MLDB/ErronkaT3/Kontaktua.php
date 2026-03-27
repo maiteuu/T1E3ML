@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if (isset($_SESSION["generoa"])) {
-    $generoa = $_SESSION["generoa"];
+if (isset($_SESSION["denboraldia"])) {
+    $denboraldia = $_SESSION["denboraldia"];
 } else {
-    $generoa = "2024-2025";
+    $denboraldia = "2024-2025";
 }
 if (isset($_SESSION["nombreUsuario"])) {
     $u = $_SESSION["nombreUsuario"];
@@ -61,7 +61,7 @@ if (isset($_SESSION['nombreUsuario'])) {
                 <?php echo $u ?> (<?php echo $rol ?>)!!
             </h1>
             <a class="login-botoia" href="logout.php">Saioa Itxi</a>
-            <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
+            <h3 class="denboraldia"><?php echo "Denboraldia: " . $denboraldia ?></h3>
         </header>
         <h1 class="orri-izenburua"> Gure Kontaktua </h1>
         <div class="kontaktua-container">
@@ -73,7 +73,7 @@ if (isset($_SESSION['nombreUsuario'])) {
             </div>
             <div class="kexen-kutxa">
                 <h2>Kexak</h2>
-                <form action="gordekexak.php" method="get" class="kexas">
+                <form action="gorde.php" method="get" class="kexas">
                     <label for="">Izena</label><br><br>
                     <input type="text" name="izena" required placeholder="Sartu Izena">
                     <br><br>
@@ -127,7 +127,7 @@ if (isset($_SESSION['nombreUsuario'])) {
                 </ul>
             </nav>
             <a href="Login.php" class="login-botoia">Login</a>
-            <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
+            <h3 class="denboraldia"><?php echo "Denboraldia: " . $denboraldia ?></h3>
         </header>
         <h1 class="orri-izenburua"> Gure Kontaktua </h1>
         <br>

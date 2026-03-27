@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if (isset($_SESSION["generoa"])) {
-    $generoa = $_SESSION["generoa"];
+if (isset($_SESSION["denboraldia"])) {
+    $denboraldia = $_SESSION["denboraldia"];
 } else {
-    $generoa = "2024-2025";
+    $denboraldia = "2024-2025";
 }
 if (isset($_SESSION["nombreUsuario"])) {
     $u = $_SESSION["nombreUsuario"];
@@ -60,12 +60,12 @@ if (isset($_SESSION['nombreUsuario'])) {
             <h1 class="u-agurra"><img class="ikonoa-erabiltzailea" src="<?php echo $ikonoa; ?>" alt="icono"> Kaixo
                 <?php echo $u ?> (<?php echo $rol ?>)!!</h1>
             <a class="login-botoia" href="logout.php">Saioa Itxi</a>
-            <h3 class="denboraldia"><?php echo "Denboraldia: " . $generoa ?></h3>
+            <h3 class="denboraldia"><?php echo "Denboraldia: " . $denboraldia ?></h3>
         </header>
         <h2 class="orri-izenburua"> Erosi Zure Sarrera </h2>
         <div class="kexen-kutxa">
             <h2>Sarrerak</h2>
-            <form action="gordesarrera.php" method="get" class="kexas">
+            <form action="gorde.php" method="get" class="kexas">
                 <label for="">Izena</label><br><br>
                 <input type="text" name="izena" required placeholder="Sartu Izena">
                 <br><br>

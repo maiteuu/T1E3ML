@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes" />
-    <xsl:param name="generoa" />
+    <xsl:param name="denboraldia" />
     <xsl:template match="/">
         <h1 class="orri-izenburua">Lehiaketako Sailkapena</h1>
 
@@ -21,7 +21,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <xsl:for-each select="//sailkapena[@denboraldia=$generoa]/taldea">
+                    <xsl:for-each select="//sailkapena[@denboraldia=$denboraldia]/taldea">
                         <tr>
 
                             <xsl:variable name="idTaldea" select="@taldea_id" />
