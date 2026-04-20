@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sarrerak>
+    <sarrera>
+        <izena>Kirian</izena>
+        <telefonoa>123456789</telefonoa>
+        <email>ara@gmail.com</email>
+        <partidua>LaSalle vs Unamuno</partidua>
+    </sarrera>
+   <sarrera>  <izena>Kirian</izena>  <telefonoa>123456789</telefonoa>  <email>kiri@gmail.com</email>  <partidua>LaSalle vs Unamuno</partidua>  </sarrera>  </sarrerak> 
